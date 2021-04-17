@@ -1,7 +1,7 @@
 {
     "name": "jpmurray/laravel-nofloc",
     "description": "Adds a header response that should be opting out your site from being used for Google's FloC tracking.",
-    "license": "license",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jean-Philippe Murray",
