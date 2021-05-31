@@ -10,7 +10,7 @@ class NoFLoCMiddleware
     {
         $response = $next($request);
 
-        $response->header('Permissions-Policy', 'interest-cohort=()');
+        $response->headers->set('Permissions-Policy', 'interest-cohort=()');
 
         return $response;
     }
